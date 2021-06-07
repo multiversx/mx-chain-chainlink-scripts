@@ -1,0 +1,6 @@
+#Don't track files:
+.DS_Store
+*.PEM
+
+#Don't track folders:
+PEM/
