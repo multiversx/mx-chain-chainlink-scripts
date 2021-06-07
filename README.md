@@ -18,6 +18,9 @@ The Chainlink Node and Elrond Adapter will run as system services that can be tu
 
 Before installing/running be sure to add a valid `owner.pem` to the script PEM folder.
 
+- create a folder named `PEM` inside the scripts folder
+- add the `owner.pem` file inside the previously created folder
+
 ## RUNNING THE SCRIPT
 
     [FIRST RUN]
