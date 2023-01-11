@@ -1,9 +1,9 @@
-# Elrond Chainlink Adapter
+# MultiversX Chainlink Adapter
 
 ## INTRODUCTION
 
-Scripts will install and run a Chainlink Node complete with Postgresql DB and the Elrond Chainlink Connector.
-The Chainlink Node and Elrond Adapter will run as system services that can be turned on/off independently.
+Scripts will install and run a Chainlink Node complete with Postgresql DB and the MultiversX Chainlink Connector.
+The Chainlink Node and MultiversX Adapter will run as system services that can be turned on/off independently.
 
 ## REQUIREMENTS
 
@@ -25,15 +25,15 @@ Before installing/running be sure to add a valid `owner.pem` to the script PEM f
 
     [FIRST RUN]
 
-`./script.sh install` - installs the everything needed to run the elrond-adapter;
+`./script.sh install` - installs everything needed to run the elrond-adapter;
 
     [START]
 `./script.sh start_chainlink` - starts the Chainlink Node;
-`./script.sh start_adapter` - starts the Elrond Adapter;
+`./script.sh start_adapter` - starts the MultiversX Adapter;
 
     [STOP]
 `./script.sh stop_chainlink` - stops the Chainlink Node;
-`./script.sh stop_adapter` - stops the Elrond Adapter;
+`./script.sh stop_adapter` - stops the MultiversX Adapter;
 
     [CLEANUP]
 
@@ -43,7 +43,7 @@ Before installing/running be sure to add a valid `owner.pem` to the script PEM f
 
 ### HTTP `POST /write` endpoint
 
-Sends transaction and writes the request data to the Elrond network
+Sends transaction and writes the request data to the MultiversX network
 
 Input:
 
